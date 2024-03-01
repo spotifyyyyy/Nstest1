@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { FaYoutube } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
 
 export default function Footer() {
   return (
@@ -11,14 +13,18 @@ export default function Footer() {
         <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8 ">
             <nav class="flex flex-wrap justify-center -mx-5 -my-2 text-2xl ">
                 <div class="px-5 py-2">
-                    <a href="/about" class="text-base leading-6 text-gray-300 hover:text-black">
+                    {/* <a href="/about" class="text-base leading-6 text-gray-300 hover:text-black">
                     आमच्याबद्दल
-                    </a>
+                    </a> */}
+                    <Link  class="text-base leading-6 text-gray-300 hover:text-black" to="about">आमच्याबद्दल</Link>
+
                 </div>
                 <div class="px-5 py-2">
-                    <a href="/plants" class="text-base leading-6 text-gray-300 hover:text-black">
+                    {/* <a href="/plants" class="text-base leading-6 text-gray-300 hover:text-black">
                     वनस्पती
-                    </a>
+                    </a> */}
+                    <Link class="text-base leading-6 text-gray-300 hover:text-black"  to="/plants"> वनस्पती</Link>
+
                 </div>
                 <div class="px-5 py-2">
                     <a href="https://maps.app.goo.gl/BsKA44sKKCS6GrPi8" class="text-base leading-6 text-gray-300 hover:text-black">
@@ -31,9 +37,11 @@ export default function Footer() {
                     </a>
                 </div> */}
                 <div class="px-5 py-2">
-                    <a href="/contact" class="text-base leading-6 text-gray-300 hover:text-black">
+                    {/* <a href="/contact" class="text-base leading-6 text-gray-300 hover:text-black">
                     संपर्क करा
-                    </a>
+                    </a> */}
+                    <Link class="text-base leading-6 text-gray-300 hover:text-black"  to="/contact">   संपर्क करा</Link>
+                     
                 </div>
                 {/* <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-300 hover:text-black">

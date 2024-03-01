@@ -21,16 +21,15 @@
     "video-react": "^0.16.0",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage":"https://spotifyyyyy.github.io/Nursery",
+  "homepage": "https://spotifyyyyy.github.io/Nstest1",
   "eslintConfig": {
     "extends": [
       "react-app",
